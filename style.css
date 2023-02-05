@@ -8,8 +8,9 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -23,11 +24,41 @@ section{
     background-color: orange;
     background-image: linear-gradient(orange,tomato);
     color: white;
-    padding: 30px,50px;
+    padding: 10px,40px;
     font-weight: 700;
     border-radius: 5;
 }
 .top-banner{
     background-image: url(images/top-banner.png );
     background-repeat:no-repeat ;
+}
+.dream-big{
+   background-image:url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+h2{
+   font-size: 40px; 
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+border-radius: 10px;
+box-shadow: 10px 10px 40px gray;
+
+}
+#big{
+    border-left: 7px solid tomato;
+}
+#small{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
